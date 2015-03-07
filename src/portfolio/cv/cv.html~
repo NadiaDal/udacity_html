@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta >
+	<meta name="viewport" content ="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6"><img src="images/udacity-logo.jpg" alt="Udacity logo"></img></div>
+			<div class="col-md-6 text-right text-uppercase">
+				<h1>Nadia Daliavska</h1>
+				<h4>Front-end developer</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+			</div>		
+		</div>
+		<div class="row">
+			<div class="col-md-12"><img  src="http://placekitten.com/1170/500" class="img-responsive" alt=""></img></div>
+		</div>
+		<div class="row">
+			<div class="col-md-12"><h4>Featered work</h4></div>
+		</div>
+		<div class="row text-center">
+			 
+			<div class="col-md-4"><img src="http://placekitten.com/370/260" class="img-responsive" alt=""></div>
+			<div class="col-md-4"><img src="http://placekitten.com/390/260" class="img-responsive" alt=""></div>
+			<div class="col-md-4"><img src="http://placekitten.com/395/260" class="img-responsive" alt=""></div>
+		</div>	
+	</div>
+</body>
