@@ -1,0 +1,51 @@
+.img-size{
+	height: 100%;
+	width: 100%;
+
+}
+
+body{
+ background: black;
+}
+
+.max-size{
+	width: 1015px;
+}
+
+.text-main{
+	color:#666;
+	background: white;
+	margin-top: 20px;
+	font-family: Verdana, sans-serif;
+
+}
+
+
+.border-box{
+	border: 1px solid #ccc;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.content{
+	font-size: 16px;
+	line-height: 1.9;
+}
+.title-super{
+	font-size: 48px;
+	font-weight:500;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+.text-subtitle{
+	color:#f07c17;
+	font-size: 25px;
+	font-weight: 600;
+	padding-top: -5px;
+}
+
+.left-column{
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
