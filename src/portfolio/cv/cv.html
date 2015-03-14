@@ -7,16 +7,20 @@
 	<meta >
 	<meta name="viewport" content ="width=device-width, initial-scale=1">
 	<title>Portfolio</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300italic' rel='stylesheet' type='text/css'>
 	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<script id="" src="js/modal.js"></script>
 </head>
 
 
 <body>
 	<div class="container">
+		
 		<div class="row">
-			<div class="col-md-6"><img src="images/udacity-logo.jpg" alt="Udacity logo"></img></div>
+			<div class="col-md-6"><img class="title-logo" src="images/udacity-logo.jpg" alt="Udacity logo"></img></div>
 			<div class="col-md-6 text-right text-uppercase">
-				<h1>Nadia Daliavska</h1>
+				<h1 class="text-thin title-super">Nadia Daliavska</h1>
 				<h4>Front-end developer</h4>
 			</div>
 		</div>
@@ -29,13 +33,43 @@
 			<div class="col-md-12"><img  src="http://placekitten.com/1170/500" class="img-responsive" alt=""></img></div>
 		</div>
 		<div class="row">
-			<div class="col-md-12"><h4>Featered work</h4></div>
+			<div class="col-md-12"><h2 class="text-muted">Featered Work</h2></div>
 		</div>
 		<div class="row text-center">
 			 
-			<div class="col-md-4"><img src="http://placekitten.com/370/260" class="img-responsive" alt=""></div>
-			<div class="col-md-4"><img src="http://placekitten.com/390/280" class="img-responsive" alt=""></div>
-			<div class="col-md-4"><img src="http://placekitten.com/395/285" class="img-responsive" alt=""></div>
+			<div class="col-md-4"><img src="http://placekitten.com/370/260" class="img-responsive" alt="">
+			<3 class="text-uppercase">Appify</h3>
+			<a href="https://github.com/NadiaDal/javascript.git">https://github.com/NadiaDal/javascript.git</a>
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			Launch demo modal
+			</button>
+			</div>
+			<div class="col-md-4"><img src="http://placekitten.com/390/280" class="img-responsive" alt="">
+			<h3 class="text-uppercase">Sunflower</h3>
+			<a href="https://github.com/NadiaDal/javascript.git">https://github.com/NadiaDal/javascript.git</a>
+			</div>
+			<div class="col-md-4"><img src="http://placekitten.com/395/285" class="img-responsive" alt="">
+			<h3 class="text-uppercase">Boken</h3>
+			<a href="https://github.com/NadiaDal/javascript.git">https://github.com/NadiaDal/javascript.git</a>
+			</div>
 		</div>	
-	</div>
+	
+	<div class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title">Modal title</h4>
+				</div>
+			<div class="modal-body">
+			<p>One fine body&hellip;</p>
+		</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
 </body>
