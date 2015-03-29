@@ -13,14 +13,14 @@ var work = {
 		 "employer" : "Ciklum",
 		 "title" : "web developer",
 		 "location" : "Kyiv",
-		 "dates_worked" : "November 2012 - now",
+		 "datesWorked" : "November 2012 - now",
 		 "description" : "description"	
 			},
 		{
 		 "employer" : "Yuna Company",
 		 "title" : "web developer",
 		 "location" : "Kyiv",
-		 "dates_worked" : "April 2011 - November 2012",
+		 "datesWorked" : "April 2011 - November 2012",
 		 "description" : "description"	
 			}
 	]

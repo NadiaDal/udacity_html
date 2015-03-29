@@ -30,13 +30,26 @@ $("#header").append(HTMLlocation.replace("%data%", bio.contact_info.location));
 $("#header").append(HTMLbioPic.replace("%data%", bio.pic));
 $("#header").append(HTMLwelcomeMsg.replace("%data%", bio.welcome_message));
 
+$("#header").append(HTMLskillsStart);
 if(bio.skills.length !=0){
-
-	var formattedSkillsStart = HTMLskillsStart.replace("%data%", bio.skills);
-	$("#header").append(formattedSkillsStart);
-	$("#skills").append(formattedSkills);
+	
+	$("#header").append(HTMLskills.replace("%data%", bio.skills));
 	
 }
+function displayWork(){
+for(job in work.jobs){
+
+	$("#workExperience").append(HTMLworkStart);
+	var workEmployerTitle = HTMLworkEmployer.replace("%data%", work.jobs[job].employer) + 
+	HTMLworkTitle.replace("%data%", work.jobs[job].title);
+	
+	$(".work-entry:last").append(workEmployerTitle);
+	$(".work-entry:last").append(HTMLworkDates.replace("%data%", work.jobs[job].datesWorked));
+	$(".work-entry:last").append(HTMLworkDescription.replace("%data%", work.jobs[job].description));
+}
+}
+
+displayWork();
 
 /*
  * $("#header").append(formattedSkillsStart);
