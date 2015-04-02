@@ -51,6 +51,14 @@ for(job in work.jobs){
 
 displayWork();
 
+$("#main").append(internationalizeButton);
+function intName(name){
+	var internArr = name.split(" ");
+	var intern1 = intern[0].charAt(0).toUpperCase() + intern[0].substring(1);
+	var intern2 = intern[1].toUpperCase();
+	return intern1+ " " + intern2;
+}	
+
 /*
  * $("#header").append(formattedSkillsStart);
 $("#skills").append(formattedSkills);
